@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL='';
+const URL='http://localhost:9000';
 export const authenticateSignup=  async (data)=>{
     try {
         return await axios.post(`${URL}/signup`,data);
